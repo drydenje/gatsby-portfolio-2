@@ -1,0 +1,33 @@
+footer.navSocial {
+  color: white;
+  background: #00191c;
+  height: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul.navSocialLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+li a:hover,
+li a:focus {
+  color: #e8a400;
+}
