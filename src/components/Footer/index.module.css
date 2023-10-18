@@ -1,6 +1,6 @@
 footer.navSocial {
-  color: white;
-  background: #00191c;
+  color: var(--white);
+  background: var(--swamp);
   height: 3rem;
 
   display: flex;
@@ -23,11 +23,11 @@ li {
 }
 
 li a {
-  color: #ffffff;
+  color: var(--white);
   font-size: 1.5rem;
 }
 
 li a:hover,
 li a:focus {
-  color: #e8a400;
+  color: var(--fuelYellow);
 }

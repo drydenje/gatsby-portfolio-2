@@ -1,3 +1,19 @@
+:root {
+  --font-serif: ` "Merriweather", "serif;" `;
+  --font-SansSerif: ` "Lato", "sans-serif;" `;
+  --font-WeightLight: 300;
+  --font-WeightRegular: 400;
+  --font-WeightBold: 700;
+
+  --black: #000000;
+  --white: #ffffff;
+  --swamp: #00191c;
+  --fuelYellow: #e8a400;
+  --nugget: #ce9228;
+  --keppel: #49a89e;
+  --keraGrey: #f7f5f5;
+}
+
 article,
 aside,
 details,
