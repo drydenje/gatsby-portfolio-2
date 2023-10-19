@@ -1,0 +1,20 @@
+hr.diamondHr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: thin solid var(--green-vivid-900);
+  text-align: center;
+  width: 75%;
+  margin: 4rem auto 2rem auto;
+}
+
+hr.diamondHr:after {
+  content: "◆";
+  display: inline-block;
+  position: relative;
+  top: -0.69em;
+  font-size: 1.5rem;
+  padding: 0;
+  background: transparent;
+  color: var(--yellow-vivid-500);
+}
