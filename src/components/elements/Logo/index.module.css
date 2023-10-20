@@ -1,0 +1,19 @@
+h1.title {
+  font-size: var();
+}
+
+h1.title span {
+  margin: auto 2px;
+}
+
+h1.title span:nth-child(1) {
+  color: var(--yellow-vivid-500);
+}
+
+h1.title span:nth-child(2) {
+  color: var(--green-vivid-700);
+}
+
+h1.title span:nth-child(3) {
+  color: var(--grey-000);
+}
