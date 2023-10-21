@@ -1,0 +1,14 @@
+header.container {
+  display: grid;
+}
+
+header.container .backgroundImage {
+  grid-area: "1/1";
+}
+
+header.container .content {
+  grid-area: "1/1";
+  position: relative;
+  place-items: center;
+  display: grid;
+}
