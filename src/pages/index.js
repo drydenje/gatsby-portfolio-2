@@ -7,11 +7,14 @@ import Seo from "@/components/seo";
 // import * as styles from "@/components/index.module.css";
 // import DiamondList from "@/components/elements/DiamondList";
 // import Hr from "@/components/elements/Hr";
-// import Logo from "@/components/elements/Logo";
+import Panel from "@/components/containers/Panel";
+import Logo from "@/components/elements/Logo";
 
 const IndexPage = () => (
   <Layout>
-    {/* <Logo /> */}
+    <Panel backgroundColor={`grey-900`}>
+      <Logo />
+    </Panel>
     {/* <Hr />
     <div style={{ width: 400 }}>
       <DiamondList>
